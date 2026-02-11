@@ -11,4 +11,7 @@ dependencies = [
     "transformers>=4.30.0",
     "matplotlib>=3.7.0",
     "numpy>=1.24.0",
+    "circuitsvis==1.43.3",
 ]
+[tool.uv]
+add-bounds = "exact"
